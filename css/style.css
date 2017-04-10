@@ -110,7 +110,7 @@ header a:hover {
 #boxes .box {
   float:left;
   text-align: center;
-  width:30%;
+  width:18%;
   padding:0.5em;
 }
 #boxes .box img {
@@ -128,7 +128,7 @@ footer {
 }
 
 /* Media Queries */
-@media(max-width: 768px){
+@media(max-width: 991px){
   header #branding,
   header nav,
   header nav li,
