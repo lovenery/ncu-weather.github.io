@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "中大即時氣象",
+  "description": "按一下就顯示國立中央大學即時氣象。",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+
+  "icons": {
+    "16": "public/chrome-16x16.png",
+    "48": "public/chrome-48x48.png",
+    "128": "public/chrome-128x128.png"
+  },
+
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
